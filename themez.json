@@ -1,0 +1,38 @@
+{
+  "button":
+  {
+    "colours":
+    {
+      "normal_bg": "#222222,#820000,90",
+      "normal_text": "#D4AF37",
+      "normal_border": "#00FFFF",
+      "active_bg": "#161616",
+      "hovered_bg": "#820000,#222222,90",
+      "hovered_text": "#C0FF33"
+    },
+    "misc":
+    {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "10",
+      "border_width": "0"
+      "state_transitions": {
+        "normal_hovered": "0.3",
+        "hovered_normal": "0.3"
+      }
+    }
+  },
+  "#game_title":
+  {
+    "colours":
+    {
+      "normal_bg": "#DC0000",
+      "text_shadow": "#222222"
+    },
+    "font":
+    {
+      "name": "rage",
+      "size": "100",
+      "bold": "1"
+    }
+  }
+}
